@@ -1181,17 +1181,24 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"672c2a3e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Login.vue?vue&type=template&id=7bba9686&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"nes-container with-title is-centered"},[_c('p',{staticClass:"title"},[_vm._v("Entrar")]),_c('div',{staticClass:"nes-field"},[_c('label',{attrs:{"for":"name_field"}},[_vm._v("Email")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.value.email),expression:"value.email"}],class:_vm.error ? 'nes-input is-error' : 'nes-input',attrs:{"type":"text"},domProps:{"value":(_vm.value.email)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.$set(_vm.value, "email", $event.target.value)},function($event){return _vm.$emit('input', _vm.value)}]}})]),_c('br'),_c('div',{staticClass:"nes-field"},[_c('label',{attrs:{"for":"name_field"}},[_vm._v("Senha")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.value.password),expression:"value.password"}],class:_vm.error ? 'nes-input is-error' : 'nes-input',attrs:{"type":"password"},domProps:{"value":(_vm.value.password)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.$set(_vm.value, "password", $event.target.value)},function($event){return _vm.$emit('input', _vm.value)}]}})]),_c('br'),_c('span',{staticClass:"nes-text is-error",staticStyle:{"margin-top":"10px","margin-bottom":"20px"}},[_vm._v(_vm._s(_vm.error))]),(_vm.error)?_c('br'):_vm._e(),_c('button',{staticClass:"nes-btn is-success",staticStyle:{"width":"200px"},attrs:{"type":"button"},on:{"click":function($event){return _vm.onLogin()}}},[_vm._v("Login")])])])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"672c2a3e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Login.vue?vue&type=template&id=296caee6&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"nes-container with-title is-centered"},[_c('p',{staticClass:"title"},[_vm._v("Entrar")]),_c('div',{staticClass:"nes-field"},[_c('label',{attrs:{"for":"name_field"}},[_vm._v("Email")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.value.email),expression:"value.email"}],class:_vm.error ? 'nes-input is-error' : 'nes-input',attrs:{"type":"text"},domProps:{"value":(_vm.value.email)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.$set(_vm.value, "email", $event.target.value)},function($event){return _vm.$emit('input', _vm.value)}]}})]),_c('br'),_c('div',{staticClass:"nes-field"},[_c('label',{attrs:{"for":"name_field"}},[_vm._v("Senha")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.value.password),expression:"value.password"}],class:_vm.error ? 'nes-input is-error' : 'nes-input',attrs:{"type":"password"},domProps:{"value":(_vm.value.password)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.$set(_vm.value, "password", $event.target.value)},function($event){return _vm.$emit('input', _vm.value)}]}})]),_c('br'),_c('span',{staticClass:"nes-text is-error",staticStyle:{"margin-top":"10px","margin-bottom":"20px"}},[_vm._v(_vm._s(_vm.error))]),(_vm.error)?_c('br'):_vm._e(),_c('div',{staticStyle:{"width":"100%","text-align":"right"}},[_c('label',[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.remember),expression:"remember"}],staticClass:"nes-checkbox",attrs:{"type":"checkbox","checked":""},domProps:{"checked":Array.isArray(_vm.remember)?_vm._i(_vm.remember,null)>-1:(_vm.remember)},on:{"click":function($event){return _vm.onRemember()},"change":function($event){var $$a=_vm.remember,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.remember=$$a.concat([$$v]))}else{$$i>-1&&(_vm.remember=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.remember=$$c}}}}),_c('span',[_vm._v("Lembrar minhas credenciais")])])]),_c('br'),_c('br'),_c('button',{staticClass:"nes-btn is-success",staticStyle:{"width":"200px"},attrs:{"type":"button"},on:{"click":function($event){return _vm.onLogin()}}},[_vm._v("Login")])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Login.vue?vue&type=template&id=7bba9686&
+// CONCATENATED MODULE: ./src/components/Login.vue?vue&type=template&id=296caee6&
 
 // EXTERNAL MODULE: ./node_modules/nes.css/css/nes.min.css
 var nes_min = __webpack_require__("30fe");
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Login.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1229,7 +1236,15 @@ var nes_min = __webpack_require__("30fe");
   methods: {
     onLogin: function onLogin() {
       this.$emit('onLogin');
+    },
+    onRemember: function onRemember() {
+      this.$emit('onRemember', this.remember);
     }
+  },
+  data: function data() {
+    return {
+      remember: false
+    };
   }
 });
 // CONCATENATED MODULE: ./src/components/Login.vue?vue&type=script&lang=js&
